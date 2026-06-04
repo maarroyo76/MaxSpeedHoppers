@@ -1,4 +1,12 @@
-# Project exclude paths
+# Gradle build outputs
 /.gradle/
 /build/
-/build/classes/java/main/
+versions/*/.gradle/
+versions/*/build/
+
+# Minecraft runtime directory (generated on first run)
+/run/
+versions/*/run/
+
+# Compiled artifacts
+*.jar

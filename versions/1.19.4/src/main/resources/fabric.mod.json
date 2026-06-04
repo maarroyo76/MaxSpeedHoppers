@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "fasterhoppers",
 	"version": "${version}",
-	"name": "FasterHoppers",
+	"name": "MaxSpeedHoppers",
 	"description": "Make your hoppers go to max speed",
 	"authors": [
 		"Wrench"
@@ -18,23 +18,17 @@
 		"main": [
 			"net.wrench.fasterhoppers.FasterHoppers"
 		],
-		"fabric-datagen": [
-			"net.wrench.fasterhoppers.FasterHoppersDataGenerator"
-		],
-        "client": [
-          "net.wrench.fasterhoppers.FasterHoppersClient"
-        ]
+		"client": [
+			"net.wrench.fasterhoppers.FasterHoppersClient"
+		]
 	},
 	"mixins": [
 		"fasterhoppers.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21.7",
-		"java": ">=21",
+		"fabricloader": ">=0.14.0",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

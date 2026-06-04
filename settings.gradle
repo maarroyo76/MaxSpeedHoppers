@@ -8,3 +8,10 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
+
+rootProject.name = 'FasterHoppers'
+
+['1.18.2', '1.19.4', '1.20.4', '1.21.7'].each { v ->
+	include v
+	project(":${v}").projectDir = file("versions/${v}")
+}
