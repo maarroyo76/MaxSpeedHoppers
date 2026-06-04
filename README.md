@@ -19,10 +19,11 @@ No configuration needed — just install and enjoy blazing fast item transfer.
 
 | Minecraft | Java |
 |-----------|------|
-| 1.18.2    | 17+  |
-| 1.19.4    | 17+  |
-| 1.20.4    | 17+  |
-| 1.21.7    | 21+  |
+| 1.18.x    | 17+  |
+| 1.19.x    | 17+  |
+| 1.20.x    | 17+  |
+| 1.21.x    | 21+  |
+| 26.1.x    | 25+  |
 
 ## Building from source
 

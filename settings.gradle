@@ -11,7 +11,7 @@ pluginManagement {
 
 rootProject.name = 'FasterHoppers'
 
-['1.18.2', '1.19.4', '1.20.4', '1.21.7'].each { v ->
+['1.18.x', '1.19.x', '1.20.x', '1.21.x', '26.1.x'].each { v ->
 	include v
 	project(":${v}").projectDir = file("versions/${v}")
 }
